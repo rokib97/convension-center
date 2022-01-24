@@ -21,7 +21,7 @@
       <div class="navigation">
         <nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
           <div class="container">
-            <a class="navbar-brand fw-bolder my-font-color fs-4" href="#"
+            <a class="navbar-brand fw-bolder my-font-color" href="#"
               ><strong>ZAARA</strong> Convention Center</a
             >
             <button
@@ -43,13 +43,13 @@
                   >
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">About Us</a>
+                  <a class="nav-link" href="#pakages">Package</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#gallery">Gallery</a>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link" href="#">Contact</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Subscribe</a>
                 </li>
               </ul>
             </div>
@@ -87,28 +87,6 @@
               ></button>
             </div>
             <div class="carousel-inner">
-              <div class="carousel-item">
-                <img
-                  src="./images/banner.png"
-                  class="d-block w-100"
-                  alt="..."
-                />
-                <div class="carousel-caption d-md-block">
-                  <h5 class="display-2">
-                    The perfect venue for your next event
-                  </h5>
-                  <p>
-                    Zaara Convention center (ZCC) <br />
-                    is the Country's 1st largest luxurious Convention Center at
-                    gulshan Police Plaza in Dhaka.
-                  </p>
-                  <a
-                    href=""
-                    class="btn btn-light text-primary fw-bold px-4 py-1 fs-5"
-                    >Book Now</a
-                  >
-                </div>
-              </div>
               <div class="carousel-item active">
                 <img
                   src="./images/banner.png"
@@ -120,13 +98,13 @@
                     The perfect venue for your next event
                   </h5>
                   <p>
-                    Zaara Convention center (ZCC) <br />
-                    is the Country's 1st largest luxurious Convention Center at
-                    gulshan Police Plaza in Dhaka.
+                    Zaara Convention center (ZCC) is the Country's 1st largest
+                    luxurious Convention Center at gulshan Police Plaza in
+                    Dhaka.
                   </p>
                   <a
                     href=""
-                    class="btn btn-light text-primary fw-bold px-4 py-1 fs-5"
+                    class="btn btn-light text-primary fw-bolder px-4 py-1"
                     >Book Now</a
                   >
                 </div>
@@ -148,7 +126,29 @@
                   </p>
                   <a
                     href=""
-                    class="btn btn-light text-primary fw-bold px-4 py-1 fs-5"
+                    class="btn btn-light text-primary fw-bolder px-4 py-1"
+                    >Book Now</a
+                  >
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img
+                  src="./images/banner.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+                <div class="carousel-caption d-md-block">
+                  <h5 class="display-2">
+                    The perfect venue for your next event
+                  </h5>
+                  <p>
+                    Zaara Convention center (ZCC) <br />
+                    is the Country's 1st largest luxurious Convention Center at
+                    gulshan Police Plaza in Dhaka.
+                  </p>
+                  <a
+                    href=""
+                    class="btn btn-light text-primary fw-bolder px-4 py-1"
                     >Book Now</a
                   >
                 </div>
@@ -184,7 +184,7 @@
     </header>
     <main>
       <!-- pakages section  -->
-      <section>
+      <section id="pakages">
         <div class="container">
           <h1 class="text-center fw-bolder my-font-color py-5">Our package</h1>
           <div class="">
@@ -518,7 +518,7 @@
               aria-live="assertive"
               aria-atomic="true"
             >
-              <div class="toast-header border-0">
+              <div class="toast-header border-0 rounded">
                 <img src="./images/Vector.png" class="rounded me-2" alt="..." />
                 <strong class="me-auto text-primary"
                   >20% off on next booking</strong
@@ -537,7 +537,7 @@
       </section>
 
       <!-- gallery section  -->
-      <section>
+      <section id="gallery">
         <div class="container mt-5 pt-5">
           <h1 class="text-center fw-bolder my-font-color mb-5">
             Photo Gallery
@@ -720,7 +720,9 @@
     </main>
     <!-- footer starts  -->
     <footer class="w-100 custom-f-background mt-5">
-      <div class="container d-flex justify-content-between align-items-center">
+      <div
+        class="container d-flex justify-content-between align-items-center py-3"
+      >
         <div class="left">
           <p class="text-white">&copy;2020 bike. All rights reserved</p>
         </div>
