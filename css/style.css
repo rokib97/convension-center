@@ -28,3 +28,10 @@ body {
 .card-background-li {
   background-color: #3f87f5;
 }
+.photo-zoom {
+  transition: transform 0.2s ease-in-out;
+  margin: 0 auto;
+}
+.photo-zoom:hover {
+  transform: scale(1.2);
+}
