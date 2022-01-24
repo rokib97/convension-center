@@ -35,3 +35,9 @@ body {
 .photo-zoom:hover {
   transform: scale(1.2);
 }
+.custom-footer {
+  height: 200px;
+}
+.custom-f-background {
+  background-color: #0a0826;
+}
