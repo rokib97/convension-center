@@ -9,7 +9,9 @@ body {
 .my-font-color {
   color: #0a0826;
 }
-
+.carousel-item img {
+  height: 80vh;
+}
 .icon-background {
   background-color: rgba(82, 67, 194, 0.103693);
 }
@@ -45,7 +47,7 @@ body {
 @media screen and (min-width: 375px) and (max-width: 576px) {
   .carousel-item img {
     width: 100%;
-    height: 585px;
+    height: 60vh;
     object-fit: cover;
   }
 }
